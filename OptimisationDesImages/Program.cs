@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Text;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 class ImageOptimizer
@@ -101,24 +100,5 @@ class ImageOptimizer
                 resized.Save(outputPath);
             }
         }
-    }
-
-    //écriture du fichier README dans le dossier 
-    static void WriteReadme(long seqMs, long parMs)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine("# Résultats d'optimisation des images");
-        sb.AppendLine();
-        sb.AppendLine($"- Version séquentielle : {seqMs} ms");
-        sb.AppendLine($"- Version parallélisée : {parMs} ms");
-        sb.AppendLine();
-        sb.AppendLine("## Conclusion");
-        sb.AppendLine(seqMs > parMs
-            ? "Le parallélisme améliore la vitesse d'exécution."
-            : "Les performances parallèles ne sont pas meilleures dans ce cas.");
-
-        var readmePath = Path.Combine(sourceDir, "README.md");
-        File.WriteAllText(readmePath, sb.ToString());
-        Console.WriteLine($"Fichier README.md créé dans le fichier : {readmePath}");
     }
 }
