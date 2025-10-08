@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PooZoo", "PooZoo\PooZoo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimisationDesImages", "OptimisationDesImages\OptimisationDesImages.csproj", "{E1E24508-8A9A-4C6F-BADF-03E30A904D9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExercicePresentationNet8", "..\..\Desktop\LinqExercicePresentationNet8\LinqExercicePresentationNet8.csproj", "{871E9C68-FEBB-462B-9B77-B3B5B8678500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSources", "..\..\Desktop\DataSources\DataSources.csproj", "{7DFE836A-802D-4507-881E-CBA8A391396E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{E1E24508-8A9A-4C6F-BADF-03E30A904D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1E24508-8A9A-4C6F-BADF-03E30A904D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1E24508-8A9A-4C6F-BADF-03E30A904D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871E9C68-FEBB-462B-9B77-B3B5B8678500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871E9C68-FEBB-462B-9B77-B3B5B8678500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871E9C68-FEBB-462B-9B77-B3B5B8678500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871E9C68-FEBB-462B-9B77-B3B5B8678500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFE836A-802D-4507-881E-CBA8A391396E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFE836A-802D-4507-881E-CBA8A391396E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFE836A-802D-4507-881E-CBA8A391396E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFE836A-802D-4507-881E-CBA8A391396E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
