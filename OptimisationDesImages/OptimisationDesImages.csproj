@@ -7,4 +7,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="ImageDeTest\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="ImageDeTest\imageExoC#\.DS_Store" />
+    </ItemGroup>
+
 </Project>
